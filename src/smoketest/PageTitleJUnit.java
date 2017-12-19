@@ -10,6 +10,13 @@ public class PageTitleJUnit {
     WebDriver driver;
     String webURL = "http://sdettraining.com/trguitransactions/AccountManagement.aspx";
 
+    @BeforeEach
+    public void setUp() {
+        System.out.println("Initializing the driver");
+        driver = utilities.DriverFactory.open("Opera");
+
+
+    }
     @Test
     public void pageTitleTest() {
         System.out.println("Running the test");
@@ -19,16 +26,8 @@ public class PageTitleJUnit {
 
         Assertions.assertEquals(expectedTitle, actualTitle);
 
-
     }
 
-    @BeforeEach
-    public void setUp() {
-        System.out.println("Initializing the driver");
-        driver = utilities.DriverFactory.open("Opera");
-
-
-    }
     @AfterEach
     public void tearDown() {
         System.out.println("Closing the driver");
