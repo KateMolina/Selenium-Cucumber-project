@@ -18,6 +18,7 @@ public class NewAccount {
         boolean monthlyEmail = false;
         boolean occassionalEmail = false;
 
+
         WebDriver driver;
         driver = utilities.DriverFactory.open(browserType);
         driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");
