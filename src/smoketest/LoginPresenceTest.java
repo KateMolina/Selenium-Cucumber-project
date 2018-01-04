@@ -21,6 +21,7 @@ public class LoginPresenceTest {
 
    @Test
     public void loginElementPresentTest(){
+        System.out.println( "Running test");
        boolean loginEmailBox = driver.findElement(By.id("MainContent_txtUserName")).isDisplayed();
        boolean passwordBox = driver.findElement(By.id("MainContent_txtPassword")).isDisplayed();
 
