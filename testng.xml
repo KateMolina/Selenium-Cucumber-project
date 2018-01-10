@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SDET University Test Suites">
+    <test verbose="2" preserve-order="true" name="Smoke Test: Home Page">
+        <classes>
+            <class name="smoketest.ATagsTest"/>
+                <methods>
+                    <include name="loginElementPresentTest"/>
+                </methods>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Smoke Test: Login Page">
+        <classes>
+            <class name="smoketest.LoginPresenceTest"/>
+            <methods>
+                <include name="loginElementPresentTest"/>
+            </methods>
+        </classes>
+    </test>
+</suite>

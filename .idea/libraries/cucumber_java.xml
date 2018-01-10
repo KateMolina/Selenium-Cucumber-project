@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="cucumber-java">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java.zip!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java.zip!/" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java.zip!/" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java.zip!/" />
+    </SOURCES>
+    <jarDirectory url="jar://$USER_HOME$/Downloads/cucumber-java.zip!/" recursive="false" />
+    <jarDirectory url="jar://$USER_HOME$/Downloads/cucumber-java.zip!/" recursive="false" type="SOURCES" />
+  </library>
+</component>
